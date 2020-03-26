@@ -1,0 +1,15 @@
+GEO.id,Id
+GEO.id2,Id2
+GEO.display-label,Geography
+HD01_VD01,Estimate; Total:
+HD02_VD01,Margin of Error; Total:
+HD01_VD02,"Estimate; Total: - U.S. citizen, born in the United States"
+HD02_VD02,"Margin of Error; Total: - U.S. citizen, born in the United States"
+HD01_VD03,"Estimate; Total: - U.S. citizen, born in Puerto Rico or U.S. Island Areas"
+HD02_VD03,"Margin of Error; Total: - U.S. citizen, born in Puerto Rico or U.S. Island Areas"
+HD01_VD04,"Estimate; Total: - U.S. citizen, born abroad of American parent(s)"
+HD02_VD04,"Margin of Error; Total: - U.S. citizen, born abroad of American parent(s)"
+HD01_VD05,Estimate; Total: - U.S. citizen by naturalization
+HD02_VD05,Margin of Error; Total: - U.S. citizen by naturalization
+HD01_VD06,Estimate; Total: - Not a U.S. citizen
+HD02_VD06,Margin of Error; Total: - Not a U.S. citizen
