@@ -1,0 +1,8 @@
+census_id,desc
+GEO.id2,GEOID_ZIP
+HD01_VD01,pop_mob
+HD01_VD18,same_house_1_yr_ago
+HD01_VD34,moved_within_same_country
+HD01_VD50,moved_from_diff_country_within_same_state
+HD01_VD66,moved_from_diff_state
+HD01_VD82,moved_from_abroad

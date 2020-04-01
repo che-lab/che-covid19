@@ -1,0 +1,6 @@
+census_id,desc
+GEO.id2,GEOID_ZIP
+HC01_EST_VC17,highsc_grad_or_higher
+HC02_EST_VC17,per_highsc_grad_or_higher
+HC01_EST_VC18,bach_deg_or_higher
+HC02_EST_VC18,per_bach_deg_or_higher

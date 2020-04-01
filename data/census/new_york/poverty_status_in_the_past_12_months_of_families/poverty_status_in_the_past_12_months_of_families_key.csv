@@ -1,0 +1,9 @@
+census_id,desc
+GEO.id2,GEOID_ZIP
+HC02_EST_VC01,pcnt_pov
+HC01_EST_VC25,security_income
+HC01_EST_VC26,social_security
+HC01_EST_VC47,2ppl_fam
+HC01_EST_VC48,3-4ppl_fam
+HC01_EST_VC49,5-6ppl_fam
+HC01_EST_VC50,GT_7ppl_fam

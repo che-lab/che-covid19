@@ -1,0 +1,4 @@
+census_id,desc
+HC01_EST_VC01,pop_pov
+HC02_EST_VC01,pop_below_pov
+GEO.id2,GEOID_ZIP
