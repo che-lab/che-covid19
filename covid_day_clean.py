@@ -1,9 +1,11 @@
 import os
 import pandas as pd
 
-os.chdir('C:/Users/elmsc/Documents/gis/che-covid19')
+#os.chdir('C:/Users/elmsc/Documents/gis/che-covid19')
+os.chdir('/Users/geoffreyhughes/Projects/Work/COVID-19/che-covid19')
 
-path = 'data/COVID-19/csse_covid_19_data/csse_covid_19_daily_reports/'
+#path = 'data/COVID-19/csse_covid_19_data/csse_covid_19_daily_reports/'
+path = 'data/'
 
 # Stores all csvs as df within a dictionary
 
