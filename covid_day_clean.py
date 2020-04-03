@@ -16,7 +16,7 @@ for i in range(0,csv_count):
     name = csv[i]
     global_dict[name] = pd.read_csv(path + name)
 
-del(i,name,csv_count)   
+del(i,name,csv_count)
 len(global_dict)
 
 #test = days[csv[0]] # assigning df
@@ -32,7 +32,7 @@ for i in range(0,len(global_dict)):
     try:
         us_temp = temp[temp['Country/Region'] == 'US']
     except:
-        try: 
+        try:
             us_temp = temp[temp['Country_Region'] == 'US']
         except: print("error")
     us_dict[csv[i]] = us_temp
@@ -46,7 +46,7 @@ for i in range(0,len(us_dict)):
     try:
         ny_temp = temp[temp['Province/State'] == 'New York']
     except:
-        try: 
+        try:
             ny_temp = temp[temp['Province_State'] == 'New York']
         except: print("error")
     ny_dict[csv[i]] = ny_temp
@@ -56,10 +56,7 @@ del(ny_temp,temp)
 
 csv[63]
 df = ny_dict[csv[63]]
-<<<<<<< Updated upstream
-list(df)
-=======
+
 list(df)
 
 #github test
->>>>>>> Stashed changes

@@ -3,18 +3,20 @@ import pandas as pd
 
 
 os.chdir('/Users/geoffreyhughes/Projects/Work/COVID-19/che-covid19/data')
-all_csv = [file_name for file_name in os.listdir(os.getcwd()) if '.csv' in file_name]
 
+
+
+# Read all CSV data
+all_csv = [file_name for file_name in os.listdir(os.getcwd()) if '.csv' in file_name]
 li = []
 
+
+# Combine all CSV data. If missing an attribute, leave blank (null)
+# e.g. 'Long_' -> 'Longitude'
 for filename in all_csv:
     df = pd.read_csv(filename, index_col=None, header=0, parse_dates=True, infer_datetime_format=True)
     li.append(df)
 
-<<<<<<< Updated upstream
-frame = pd.concat(li, axis=0, ignore_index=True), sort=True)
-frame.to_csv('melted_csv.csv', index=False)
-=======
 frame = pd.concat(li, axis=0, ignore_index=True, sort=True)
 
 if os.path.isfile('raw_data.csv'):
@@ -48,5 +50,5 @@ print(len(frame))
 
 
 del(li, df, frame)
+
 #github test
->>>>>>> Stashed changes
