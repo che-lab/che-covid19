@@ -54,5 +54,8 @@ for i in range(0,len(us_dict)):
     ny_dict[csv[i]] = ny_temp
 del(ny_temp,temp)
 
-df = ny_dict[csv[60]]
+#ny_df = pd.DataFrame()
+
+csv[63]
+df = ny_dict[csv[63]]
 list(df)

@@ -1,0 +1,5 @@
+census_id,desc
+HC01_EST_VC01,pop_health
+HC02_EST_VC01,insured
+GEO.id2,GEOID_ZIP
+HC04_EST_VC01,uninsured

@@ -1,0 +1,3 @@
+census_id,desc
+GEO.id2,GEOID_ZIP
+HC03_EST_VC02,hh_median_income

@@ -1,0 +1,5 @@
+census_id,desc
+GEO.id2,GEOID_ZIP
+HC01_EST_VC01,total_civil_noninsti_pop
+HC02_EST_VC01,disabled
+HC03_EST_VC01,per_disabled

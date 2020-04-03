@@ -1,0 +1,4 @@
+census_id,desc
+GEO.id2,GEOID_ZIP
+HD01_VD05,naturalized
+HD01_VD06,non-citizen

@@ -1,0 +1,5 @@
+census_id,desc
+GEO.id2,GEOID_ZIP
+HD01_VD01,total_housing
+HD01_VD02,owner
+HD01_VD03,rent

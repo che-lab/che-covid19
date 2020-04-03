@@ -1,0 +1,5 @@
+census_id,desc
+GEO.id2,GEOID_ZIP
+HC01_EST_VC01,tot_households
+HC03_EST_VC01,households_SNAP
+HC04_EST_VC01,per_households_SNAP
