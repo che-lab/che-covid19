@@ -56,4 +56,10 @@ del(ny_temp,temp)
 
 csv[63]
 df = ny_dict[csv[63]]
+<<<<<<< Updated upstream
 list(df)
+=======
+list(df)
+
+#github test
+>>>>>>> Stashed changes
