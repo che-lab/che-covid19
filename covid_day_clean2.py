@@ -1,5 +1,6 @@
 import os
 import pandas as pd
+import download_covid19_data
 
 
 # Change to directory with the CSV files
